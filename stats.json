@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "Thu, 12 Nov 2026 01:35:59 GMT",
+  "lastUpdated": "Thu, 12 Nov 2026 11:43:51 GMT",
   "players": [
+    {
+      "username": "greenownscedar",
+      "uuid": "c878e4c0-08bf-440e-b911-2023dbdb8410",
+      "points": 50,
+      "ranks": {
+        "Sword": "HT4",
+        "Axe": "MT4",
+        "Mace": "HT5",
+        "Spear": "LT4",
+        "UHC": "HT4",
+        "NethPot": "HT5",
+        "Pot": "LT4",
+        "SMP": "HT4",
+        "DiaSMP": "HT4",
+        "Vanilla": "HT5",
+        "Cart": "LT4"
+      }
+    },
     {
       "username": "ItzJstMac",
       "uuid": "cad9f89b-1413-4f24-acfe-4d6301a47bd9",
@@ -16,24 +34,6 @@
         "SMP": "MT4",
         "DiaSMP": "HT4",
         "Cart": "HT4"
-      }
-    },
-    {
-      "username": "greenownscedar",
-      "uuid": "c878e4c0-08bf-440e-b911-2023dbdb8410",
-      "points": 43,
-      "ranks": {
-        "Sword": "HT4",
-        "Axe": "MT4",
-        "Mace": "HT5",
-        "Spear": "LT4",
-        "UHC": "HT4",
-        "NethPot": "Recalibrating",
-        "Pot": "HT5",
-        "SMP": "HT4",
-        "DiaSMP": "HT4",
-        "Vanilla": "Unranked",
-        "Cart": "LT4"
       }
     },
     {
