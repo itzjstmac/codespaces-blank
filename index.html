@@ -190,7 +190,9 @@
   </style>
 </head>
 <body>
-
+<button id="refresh-btn">
+  🔄 Refresh Stats
+</button>
   <h1>Obsidian Empire PVPHQ Leaderboard</h1>
   <div class="updated" id="last-updated">Loading stats...</div>
 
@@ -295,6 +297,10 @@
 
 setInterval(loadLeaderboard, 300000);
   </script>
+
+<button onclick="loadLeaderboard()">
+  🔄 Check for Updates
+</button>
 
 </body>
 </html>
