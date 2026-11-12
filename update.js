@@ -71,11 +71,11 @@ async function fetchPlayer(player) {
     };
 
   } catch (error) {
-    console.error(`Failed to fetch ${username}:`, error);
+    console.error(`Failed to fetch ${player.username}:`, error);
 
     return {
       username: data.name || username,
-      uuid: data.uuid,
+      uuid: player.uuid,
       points: data.overall?.points || 0,
       ranks: {}
     };
@@ -123,4 +123,5 @@ document
       button.textContent =
         "🔄 Refresh Stats";
     }, 2000);
-});
+
+  });
