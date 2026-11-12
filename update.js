@@ -103,25 +103,3 @@ async function updateLeaderboard() {
 }
 
 updateLeaderboard();
-
-document
-  .getElementById("refresh-btn")
-  .addEventListener("click", async () => {
-
-    const button =
-      document.getElementById("refresh-btn");
-
-    button.textContent =
-      "⏳ Refreshing...";
-
-    await loadLeaderboard();
-
-    button.textContent =
-      "✅ Refreshed";
-
-    setTimeout(() => {
-      button.textContent =
-        "🔄 Refresh Stats";
-    }, 2000);
-
-  });
