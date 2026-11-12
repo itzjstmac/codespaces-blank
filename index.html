@@ -296,29 +296,7 @@
     loadLeaderboard();
 
 setInterval(loadLeaderboard, 300000);
-
-document
-  .getElementById("refresh-btn")
-  .addEventListener("click", async () => {
-
-    const button =
-      document.getElementById("refresh-btn");
-
-    button.textContent = "⏳ Refreshing...";
-
-    await loadLeaderboard();
-
-    button.textContent = "✅ Updated";
-
-    setTimeout(() => {
-      button.textContent = "🔄 Refresh Stats";
-    }, 2000);
-});
   </script>
-
-<button onclick="loadLeaderboard()">
-  🔄 Check for Updates
-</button>
 
 
 
