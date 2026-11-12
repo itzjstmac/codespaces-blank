@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "Wed, 11 Nov 2026 17:05:00 GMT",
+  "lastUpdated": "Thu, 12 Nov 2026 01:35:59 GMT",
   "players": [
     {
       "username": "ItzJstMac",
       "uuid": "cad9f89b-1413-4f24-acfe-4d6301a47bd9",
-      "points": 44,
+      "points": 49,
       "ranks": {
         "Sword": "HT4",
         "Axe": "LT4",
         "Mace": "HT4",
         "Spear": "LT3",
-        "UHC": "Unranked",
+        "UHC": "LT4",
         "NethPot": "HT5",
-        "Pot": "Unranked",
+        "Pot": "LT5",
         "SMP": "MT4",
         "DiaSMP": "HT4",
         "Cart": "HT4"
@@ -83,7 +83,7 @@
       "ranks": {}
     },
     {
-      "username": "Sirr_Alonne",
+      "username": "_Alonne",
       "uuid": "09b3a30b-c135-45e6-a012-0c334ca8642a",
       "points": 0,
       "ranks": {}
