@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Fri, 13 Nov 2026 02:50:27 GMT",
+  "lastUpdated": "Fri, 13 Nov 2026 12:08:03 GMT",
   "players": [
     {
       "username": "ItzJstMac",
@@ -70,17 +70,19 @@
     {
       "username": "bigboyrayy",
       "uuid": "6022e0a8-f0a0-4903-9882-a0d0effec6e3",
-      "points": 7,
+      "points": 14,
       "ranks": {
         "Sword": "LT4",
         "Axe": "Recalibrating",
+        "Mace": "Unranked",
         "Spear": "Unranked",
-        "UHC": "Unranked",
+        "UHC": "MT5",
+        "NethPot": "Unranked",
         "Pot": "Unranked",
         "SMP": "Unranked",
         "DiaSMP": "HT5",
         "Vanilla": "Unranked",
-        "Cart": "Unranked"
+        "Cart": "MT4"
       }
     },
     {
