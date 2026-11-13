@@ -74,9 +74,9 @@ async function fetchPlayer(player) {
     console.error(`Failed to fetch ${player.username}:`, error);
 
     return {
-      username: data.name || username,
+      username: player.username,
       uuid: player.uuid,
-      points: data.overall?.points || 0,
+      points: 0,
       ranks: {}
     };
   }

@@ -1,10 +1,28 @@
 {
-  "lastUpdated": "Thu, 12 Nov 2026 15:28:24 GMT",
+  "lastUpdated": "Fri, 13 Nov 2026 02:50:27 GMT",
   "players": [
+    {
+      "username": "ItzJstMac",
+      "uuid": "cad9f89b-1413-4f24-acfe-4d6301a47bd9",
+      "points": 54,
+      "ranks": {
+        "Sword": "HT4",
+        "Axe": "LT4",
+        "Mace": "HT4",
+        "Spear": "LT3",
+        "UHC": "LT4",
+        "NethPot": "LT4",
+        "Pot": "MT5",
+        "SMP": "MT4",
+        "DiaSMP": "HT4",
+        "Vanilla": "HT5",
+        "Cart": "HT4"
+      }
+    },
     {
       "username": "greenownscedar",
       "uuid": "c878e4c0-08bf-440e-b911-2023dbdb8410",
-      "points": 50,
+      "points": 51,
       "ranks": {
         "Sword": "HT4",
         "Axe": "MT4",
@@ -16,24 +34,7 @@
         "SMP": "HT4",
         "DiaSMP": "HT4",
         "Vanilla": "HT5",
-        "Cart": "LT4"
-      }
-    },
-    {
-      "username": "ItzJstMac",
-      "uuid": "cad9f89b-1413-4f24-acfe-4d6301a47bd9",
-      "points": 49,
-      "ranks": {
-        "Sword": "HT4",
-        "Axe": "LT4",
-        "Mace": "HT4",
-        "Spear": "LT3",
-        "UHC": "LT4",
-        "NethPot": "HT5",
-        "Pot": "LT5",
-        "SMP": "MT4",
-        "DiaSMP": "HT4",
-        "Cart": "HT4"
+        "Cart": "MT4"
       }
     },
     {
@@ -67,6 +68,22 @@
       }
     },
     {
+      "username": "bigboyrayy",
+      "uuid": "6022e0a8-f0a0-4903-9882-a0d0effec6e3",
+      "points": 7,
+      "ranks": {
+        "Sword": "LT4",
+        "Axe": "Recalibrating",
+        "Spear": "Unranked",
+        "UHC": "Unranked",
+        "Pot": "Unranked",
+        "SMP": "Unranked",
+        "DiaSMP": "HT5",
+        "Vanilla": "Unranked",
+        "Cart": "Unranked"
+      }
+    },
+    {
       "username": "tjafk",
       "uuid": "f9138b88-d653-4c8f-b3e0-41852c9b4708",
       "points": 2,
@@ -93,20 +110,6 @@
       "uuid": "63b7f08e-a9b3-4d2c-96ba-c8ddedf2a496",
       "points": 0,
       "ranks": {}
-    },
-    {
-      "username": "bigboyrayy",
-      "uuid": "6022e0a8-f0a0-4903-9882-a0d0effec6e3",
-      "points": 0,
-      "ranks": {
-        "Sword": "Recalibrating",
-        "Axe": "Recalibrating",
-        "UHC": "Unranked",
-        "Pot": "Unranked",
-        "SMP": "Unranked",
-        "DiaSMP": "Recalibrating",
-        "Vanilla": "Unranked"
-      }
     },
     {
       "username": "CarbideMc",
