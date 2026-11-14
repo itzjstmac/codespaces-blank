@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Fri, 13 Nov 2026 12:08:03 GMT",
+  "lastUpdated": "Sat, 14 Nov 2026 16:51:14 GMT",
   "players": [
     {
       "username": "ItzJstMac",
@@ -53,6 +53,24 @@
       }
     },
     {
+      "username": "elidaghost",
+      "uuid": "4a0309d2-7453-4dd3-8378-d9ce152bcb06",
+      "points": 24,
+      "ranks": {
+        "Sword": "HT4",
+        "Axe": "Unranked",
+        "Mace": "Unranked",
+        "Spear": "Unranked",
+        "UHC": "HT4",
+        "NethPot": "Unranked",
+        "Pot": "Unranked",
+        "SMP": "HT4",
+        "DiaSMP": "HT4",
+        "Vanilla": "Unranked",
+        "Cart": "Unranked"
+      }
+    },
+    {
       "username": "Pluuto_fs",
       "uuid": "91d2617b-8ae3-49a4-a878-1fe613b80ed1",
       "points": 15,
@@ -70,14 +88,14 @@
     {
       "username": "bigboyrayy",
       "uuid": "6022e0a8-f0a0-4903-9882-a0d0effec6e3",
-      "points": 14,
+      "points": 15,
       "ranks": {
         "Sword": "LT4",
         "Axe": "Recalibrating",
         "Mace": "Unranked",
         "Spear": "Unranked",
         "UHC": "MT5",
-        "NethPot": "Unranked",
+        "NethPot": "LT5",
         "Pot": "Unranked",
         "SMP": "Unranked",
         "DiaSMP": "HT5",
@@ -94,12 +112,6 @@
         "Axe": "Unranked",
         "DiaSMP": "Recalibrating"
       }
-    },
-    {
-      "username": "elidaghost",
-      "uuid": "4a0309d2-7453-4dd3-8378-d9ce152bcb06",
-      "points": 0,
-      "ranks": {}
     },
     {
       "username": "_Alonne",
