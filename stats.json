@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Sat, 14 Nov 2026 16:51:14 GMT",
+  "lastUpdated": "Sun, 15 Nov 2026 15:33:11 GMT",
   "players": [
     {
       "username": "ItzJstMac",
@@ -22,7 +22,7 @@
     {
       "username": "greenownscedar",
       "uuid": "c878e4c0-08bf-440e-b911-2023dbdb8410",
-      "points": 51,
+      "points": 52,
       "ranks": {
         "Sword": "HT4",
         "Axe": "MT4",
@@ -30,7 +30,7 @@
         "Spear": "LT4",
         "UHC": "HT4",
         "NethPot": "HT5",
-        "Pot": "LT4",
+        "Pot": "MT4",
         "SMP": "HT4",
         "DiaSMP": "HT4",
         "Vanilla": "HT5",
@@ -53,9 +53,24 @@
       }
     },
     {
+      "username": "Pluuto_fs",
+      "uuid": "91d2617b-8ae3-49a4-a878-1fe613b80ed1",
+      "points": 31,
+      "ranks": {
+        "Sword": "HT3",
+        "Axe": "Recalibrating",
+        "Mace": "Unranked",
+        "Spear": "Recalibrating",
+        "UHC": "HT4",
+        "Pot": "Unranked",
+        "SMP": "Recalibrating",
+        "DiaSMP": "MT3"
+      }
+    },
+    {
       "username": "elidaghost",
       "uuid": "4a0309d2-7453-4dd3-8378-d9ce152bcb06",
-      "points": 24,
+      "points": 27,
       "ranks": {
         "Sword": "HT4",
         "Axe": "Unranked",
@@ -63,26 +78,11 @@
         "Spear": "Unranked",
         "UHC": "HT4",
         "NethPot": "Unranked",
-        "Pot": "Unranked",
+        "Pot": "HT5",
         "SMP": "HT4",
         "DiaSMP": "HT4",
         "Vanilla": "Unranked",
         "Cart": "Unranked"
-      }
-    },
-    {
-      "username": "Pluuto_fs",
-      "uuid": "91d2617b-8ae3-49a4-a878-1fe613b80ed1",
-      "points": 15,
-      "ranks": {
-        "Sword": "HT3",
-        "Axe": "Recalibrating",
-        "Mace": "Unranked",
-        "Spear": "Recalibrating",
-        "UHC": "Recalibrating",
-        "Pot": "Unranked",
-        "SMP": "Recalibrating",
-        "DiaSMP": "Recalibrating"
       }
     },
     {
@@ -106,18 +106,20 @@
     {
       "username": "tjafk",
       "uuid": "f9138b88-d653-4c8f-b3e0-41852c9b4708",
-      "points": 2,
+      "points": 6,
       "ranks": {
-        "Sword": "MT5",
-        "Axe": "Unranked",
-        "DiaSMP": "Recalibrating"
+        "Sword": "HT5",
+        "Axe": "LT5",
+        "DiaSMP": "MT5"
       }
     },
     {
       "username": "_Alonne",
       "uuid": "09b3a30b-c135-45e6-a012-0c334ca8642a",
       "points": 0,
-      "ranks": {}
+      "ranks": {
+        "Pot": "Unranked"
+      }
     },
     {
       "username": "timeweilder",
