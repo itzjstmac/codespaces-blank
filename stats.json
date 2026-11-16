@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Mon, 16 Nov 2026 22:44:17 GMT",
+  "lastUpdated": "Mon, 16 Nov 2026 23:46:53 GMT",
   "players": [
     {
       "username": "greenownscedar",
@@ -123,6 +123,14 @@
       }
     },
     {
+      "username": "Bigpapa2341318",
+      "uuid": "a5d31e34-88d5-4811-8053-b4d52fc57021",
+      "points": 2,
+      "ranks": {
+        "Sword": "MT5"
+      }
+    },
+    {
       "username": "_Alonne",
       "uuid": "09b3a30b-c135-45e6-a012-0c334ca8642a",
       "points": 0,
@@ -139,14 +147,6 @@
     {
       "username": "CarbideMc",
       "uuid": "ce1a8b9d-c803-47df-9f85-dfc6ef7bc3ce",
-      "points": 0,
-      "ranks": {
-        "Sword": "Unranked"
-      }
-    },
-    {
-      "username": "Bigpapa2341318",
-      "uuid": "a5d31e34-88d5-4811-8053-b4d52fc57021",
       "points": 0,
       "ranks": {
         "Sword": "Unranked"
