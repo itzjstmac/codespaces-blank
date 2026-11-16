@@ -45,6 +45,10 @@ const PLAYERS = [
   username: "3_e1e",
   uuid: "491391c0-1856-466f-960d-75d8da01ad1e"
   },
+  {
+  username: "Bigpapa2341318",
+  uuid: "a5d31e34-88d5-4811-8053-b4d52fc57021"
+  },
 ];
 
 async function fetchPlayer(player) {

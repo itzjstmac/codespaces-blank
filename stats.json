@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "Mon, 16 Nov 2026 19:13:23 GMT",
+  "lastUpdated": "Mon, 16 Nov 2026 22:44:17 GMT",
   "players": [
+    {
+      "username": "greenownscedar",
+      "uuid": "c878e4c0-08bf-440e-b911-2023dbdb8410",
+      "points": 56,
+      "ranks": {
+        "Sword": "HT4",
+        "Axe": "MT4",
+        "Mace": "HT5",
+        "Spear": "LT4",
+        "UHC": "LT3",
+        "NethPot": "HT5",
+        "Pot": "MT4",
+        "SMP": "HT4",
+        "DiaSMP": "LT3",
+        "Vanilla": "HT5",
+        "Cart": "MT4"
+      }
+    },
     {
       "username": "ItzJstMac",
       "uuid": "cad9f89b-1413-4f24-acfe-4d6301a47bd9",
@@ -17,24 +35,6 @@
         "DiaSMP": "HT4",
         "Vanilla": "HT5",
         "Cart": "HT4"
-      }
-    },
-    {
-      "username": "greenownscedar",
-      "uuid": "c878e4c0-08bf-440e-b911-2023dbdb8410",
-      "points": 52,
-      "ranks": {
-        "Sword": "HT4",
-        "Axe": "MT4",
-        "Mace": "HT5",
-        "Spear": "LT4",
-        "UHC": "HT4",
-        "NethPot": "HT5",
-        "Pot": "MT4",
-        "SMP": "HT4",
-        "DiaSMP": "HT4",
-        "Vanilla": "HT5",
-        "Cart": "MT4"
       }
     },
     {
@@ -139,6 +139,14 @@
     {
       "username": "CarbideMc",
       "uuid": "ce1a8b9d-c803-47df-9f85-dfc6ef7bc3ce",
+      "points": 0,
+      "ranks": {
+        "Sword": "Unranked"
+      }
+    },
+    {
+      "username": "Bigpapa2341318",
+      "uuid": "a5d31e34-88d5-4811-8053-b4d52fc57021",
       "points": 0,
       "ranks": {
         "Sword": "Unranked"
