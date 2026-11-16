@@ -41,6 +41,10 @@ const PLAYERS = [
   username: "CarbideMc",
   uuid: "ce1a8b9d-c803-47df-9f85-dfc6ef7bc3ce"
   },
+  {
+  username: "3_e1e",
+  uuid: "491391c0-1856-466f-960d-75d8da01ad1e"
+  },
 ];
 
 async function fetchPlayer(player) {
