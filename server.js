@@ -33,7 +33,7 @@ setInterval(async () => {
   } catch (err) {
     console.error(err);
   }
-}, 5 * 60 * 1000);
+}, 60 * 1000);
 
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
