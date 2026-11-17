@@ -51,11 +51,14 @@ const PLAYERS = [
   },
 ];
 
-async function fetchPlayer(player) {
+export async function fetchPlayer(player) {
   try {
     const response = await fetch(
-      `https://pvphq.com/api/v1/players/by-name/${encodeURIComponent(player.username)}`
-    );
+  `stats.json?t=${Date.now()}`,
+  {
+    cache: "no-store"
+  }
+);
 
     if (!response.ok) {
       throw new Error(`${player.username} returned ${response.status}`);
@@ -110,4 +113,4 @@ async function updateLeaderboard() {
   console.log("stats.json updated!");
 }
 
-updateLeaderboard();
+export { updateLeaderboard };
