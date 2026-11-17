@@ -51,17 +51,18 @@ const PLAYERS = [
   },
 ];
 
-export async function fetchPlayer(player) {
+async function fetchPlayer(player) {
   try {
     const response = await fetch(
-  `stats.json?t=${Date.now()}`,
-  {
-    cache: "no-store"
-  }
-);
+      `https://pvphq.com/api/v1/players/by-name/${encodeURIComponent(
+        player.username
+      )}`
+    );
 
     if (!response.ok) {
-      throw new Error(`${player.username} returned ${response.status}`);
+      throw new Error(
+        `${player.username} returned ${response.status}`
+      );
     }
 
     const data = await response.json();
@@ -70,7 +71,11 @@ export async function fetchPlayer(player) {
 
     if (Array.isArray(data.ranked)) {
       data.ranked.forEach(rank => {
-        ranks[rank.gametypeName || rank.gametype] = rank.tier;
+        ranks[
+          rank.gametypeName ||
+          rank.gametype ||
+          "Unknown"
+        ] = rank.tier;
       });
     }
 
@@ -82,7 +87,10 @@ export async function fetchPlayer(player) {
     };
 
   } catch (error) {
-    console.error(`Failed to fetch ${player.username}:`, error);
+    console.error(
+      `Failed to fetch ${player.username}:`,
+      error.message
+    );
 
     return {
       username: player.username,
@@ -93,7 +101,11 @@ export async function fetchPlayer(player) {
   }
 }
 
-async function updateLeaderboard() {
+export async function updateLeaderboard() {
+  console.log(
+    `[${new Date().toISOString()}] Updating PVPHQ leaderboard...`
+  );
+
   const players = await Promise.all(
     PLAYERS.map(fetchPlayer)
   );
@@ -110,7 +122,9 @@ async function updateLeaderboard() {
     JSON.stringify(stats, null, 2)
   );
 
-  console.log("stats.json updated!");
-}
+  console.log(
+    `[${new Date().toISOString()}] stats.json updated`
+  );
 
-export { updateLeaderboard };
+  return stats;
+}
